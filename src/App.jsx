@@ -611,7 +611,7 @@ export default function App() {
           </div>
         </div>
         <button
-          onClick={() => setIsModalOpen(true)}
+          // onClick={() => setIsModalOpen(true)}
           className="bg-[#00E676] text-slate-950 font-extrabold text-sm px-5 py-2.5 rounded-xl shadow-lg"
         >
           <a
