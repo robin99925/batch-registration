@@ -619,6 +619,7 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
             className="text-sky-400 underline font-semibold"
+            style={{ textDecoration: "none", color: "inherit" }}
           >
             Book Seat Now →
           </a>
