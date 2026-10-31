@@ -614,7 +614,14 @@ export default function App() {
           onClick={() => setIsModalOpen(true)}
           className="bg-[#00E676] text-slate-950 font-extrabold text-sm px-5 py-2.5 rounded-xl shadow-lg"
         >
-          Book Seat Now →
+          <a
+            href="https://forms.gle/aPXtTv8ubbA6Vp1L6"
+            target="_blank"
+            rel="noreferrer"
+            className="text-sky-400 underline font-semibold"
+          >
+            Book Seat Now →
+          </a>
         </button>
       </div>
 
